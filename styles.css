@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(201, 201, 194);
+}
+
+#form-title {
+    background-color: rgb(117, 114, 114);
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Goldman', cursive;
+    font-weight: 700;
+    color: rgb(248, 142, 121);
+}
+
+#description {
+    font-size: 16px;
+    color: cornsilk;
+    font-family: 'Goldman', cursive;
+}
+
+form {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(117, 114, 114);
+    color: white;
+    padding: 1% 5%;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#name,
+#email,
+#number,
+#textarea {
+    display: inline-block;
+    width: 100%;
+    padding: auto;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#username,
+#user-email,
+#user-wins,
+#user-skills,
+#user_superpower p,
+#favorite-hero p,
+#text-area {
+    font-style: italic;
+    text-transform: uppercase;
+    color: cornsilk;
+    font-family: 'Goldman', cursive;
+}
+
+#dropdown {
+    width: 100%;
+    margin-top: 0;
+}
+
+#submit {
+    background-color:rgb(248, 142, 121);
+    font-family: 'Goldman', cursive;
+    color:black;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+#submit:hover {
+color:rgb(248, 142, 121);
+font-family: 'Goldman', cursive;
+background-color:black;
+border: 2px solid rgb(248, 142, 121);
+transition: 0.4s;
+}
