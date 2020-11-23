@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Goldman:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form-title">
+        <h1 id="title">The best survey form ever</h1>
+        <p id="description">Please take a few minutes to help us make this world safer</p>
+    </div>
+    <form id="survey-form">
+        <div id="username">
+            <label id="name-label" class="username" for="name">Your name:</label>
+            <input type="text" name="" id="name" placeholder="Please enter your name" required="">
+        </div> 
+        <div id="user-email">
+            <label id="email-label" class="user-email" for="email">Email:</label>
+            <input type="email" name="" id="email" placeholder="example@mymail.com" required="">
+        </div>
+        <div id="user-wins">
+            <label id="number-label" class="user-wins" for="number">Number of Mortal Combat wins</label>
+            <input type="number" name="number" id="number" min="1" max="50" placeholder="Wins" required="">
+        </div>
+        <div id="user-skills">
+            <p"> Please chose Your fight skills level</p>
+            <select name="boxing-level" id="dropdown" required>
+                <option value="Beginner" selected>NewBee. Average fighter with low super power skills</option>
+                <option value="Middle">Chuck Norris. Strong fighter, crushes the bricks</option>
+                <option value="Pro">TheOne. One and only megasuperextra magic dude</option>
+            </select>
+        </div>
+        <div id="user_superpower">
+            <p>Please select Your super power</p>
+                <label for="super-power">
+                    <input name="super-power" type="radio" value="Fire blade"> Fire Blade. Make them burn <br>
+                </label>
+                <label for="super-power">
+                    <input name="super-power" type="radio" value="Ice blade"> Ice Blade. Are you cold out there? <br>
+                </label>
+                <label for="super-power">
+                    <input name="super-power" type="radio" value="Tornado blade"> Tornado Blade. Fly baby, fly... <br>
+                </label>
+        </div>
+        <div id="favorite-hero">
+            <p id="favorite-hero">Chose your favorite Hero</p>
+            <input type="checkbox" name="favorite-hero" value="subzero">Sub Zero. Always have a cold beer<br>
+            <input type="checkbox" name="favorite-hero" value="scorpion">Scorpion. This one have a kinda snakes in his slaves<br>
+            <input type="checkbox" name="favorite-hero" value="sonya">Sonya. Dot mess with Sofy<br>
+            <input type="checkbox" name="favorite-hero" value="jax">Jax. Man with iron arms. Will hold you tight<br>
+            <input type="checkbox" name="favorite-hero" value="motaro">Motaro. This one. You dont want meet him on the streets<br>
+        </div>
+        <div id="text-area">
+            <p>Give us some fresh ideas</p>
+            <textarea id="textarea" rows="10" cols="30" name="textarea">Your comment here</textarea>
+        </div>
+        <div id="submit-button">
+            <button id="submit" type="submit">Submit</button>
+
+        </div>
+    </form>
+</body>
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
